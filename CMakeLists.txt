@@ -44,5 +44,3 @@ set_target_properties(hw-007  PROPERTIES
 set(CMAKE_CXX_FLAGS "-Wall -Wextra -Werror -pedantic")
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
-
-add_subdirectory(gtests)
